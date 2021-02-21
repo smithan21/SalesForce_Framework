@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+<parameter name="value" value="${Environment}" />
+	<test name="login">
+		<classes>
+			<class name="com.tekarch.SFDC_Login.loginToSF" />
+		</classes>
+	</test>
+	
+
+</suite>

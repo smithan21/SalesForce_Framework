@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="20.373" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Manu-Thinkpad\.m2\repository\webdriver\chromedriver\win32\88.0.4324.96\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Manu-Thinkpad\apache-maven-3.6.3-bin\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="suiteXmlFile" value="Regression.xml"/>
+    <property name="log4j.appender.rolling" value="org.apache.log4j.RollingFileAppender"/>
+    <property name="maven.conf" value="C:\Users\Manu-Thinkpad\apache-maven-3.6.3-bin\bin\../conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="td_invalid_emailId" value="xxx@gmail.com"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DsuiteXmlFile=Regression.xml"/>
+    <property name="maven.home" value="C:\Users\Manu-Thinkpad\apache-maven-3.6.3-bin\bin\.."/>
+    <property name="surefire.test.class.path" value="C:\Projects\Smitha_Java\POM_SalesForce\target\test-classes;C:\Projects\Smitha_Java\POM_SalesForce\target\classes;C:\Users\Manu-Thinkpad\.m2\repository\org\testng\testng\6.10\testng-6.10.jar;C:\Users\Manu-Thinkpad\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.5\selenium-server-3.141.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.5\selenium-java-3.141.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.5\selenium-api-3.141.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.5\selenium-chrome-driver-3.141.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.5\selenium-edge-driver-3.141.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.5\selenium-firefox-driver-3.141.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.5\selenium-ie-driver-3.141.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.5\selenium-opera-driver-3.141.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.5\selenium-remote-driver-3.141.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.5\selenium-safari-driver-3.141.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.5\selenium-support-3.141.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Manu-Thinkpad\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Manu-Thinkpad\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Manu-Thinkpad\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Manu-Thinkpad\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Manu-Thinkpad\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Manu-Thinkpad\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Manu-Thinkpad\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Manu-Thinkpad\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Manu-Thinkpad\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\json\json\20160810\json-20160810.jar;C:\Users\Manu-Thinkpad\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Manu-Thinkpad\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Manu-Thinkpad\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Manu-Thinkpad\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\Manu-Thinkpad\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\Manu-Thinkpad\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\Manu-Thinkpad\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\Manu-Thinkpad\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Manu-Thinkpad\.m2\repository\io\github\bonigarcia\webdrivermanager\3.3.0\webdrivermanager-3.3.0.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Manu-Thinkpad\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Manu-Thinkpad\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="log4j.rootCategory" value="INFO, rolling, stdout"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Manu-Thinkpad"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="log4j.appender.rolling.File" value="Tekarch-log4j.log"/>
+    <property name="basedir" value="C:\Projects\Smitha_Java\POM_SalesForce"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="log4j.appender.stdout" value="org.apache.log4j.ConsoleAppender"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="Environment" value="sf"/>
+    <property name="Browser" value="ch"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="log4j.appender.stdout.layout" value="org.apache.log4j.PatternLayout"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="td_invalid_password" value="xxx123"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="Manu-Thinkpad"/>
+    <property name="td_password" value="A12b12345"/>
+    <property name="log4j.appender.stdout.layout.ConversionPattern" value="%-2p %c{1} : %L - %m%n"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="log4j.appender.rolling.layout.ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c %L - %m%n"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="AutomationRunning" value="web"/>
+    <property name="log4j.appender.rolling.MaxBackupIndex" value="5"/>
+    <property name="localRepository" value="C:\Users\Manu-Thinkpad\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MANU-T~1\AppData\Local\Temp\"/>
+    <property name="log4j.appender.rolling.layout" value="org.apache.log4j.PatternLayout"/>
+    <property name="log4j.appender.rolling.MaxFileSize" value="5MB"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="log4j.logger.accessLogger" value="DEBUG"/>
+    <property name="user.dir" value="C:\Projects\Smitha_Java\POM_SalesForce"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Projects\Smitha_Java\POM_SalesForce"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\Nordic Semiconductor\nrf51\bin\;C:\Program Files\PuTTY\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\Program Files (x86)\HP\IdrsOCR_15.4.1132.0\;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\Manu-Thinkpad\apache-maven-3.6.3-bin\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Manu-Thinkpad\AppData\Local\Android\Sdk\tools;C:\Users\Manu-Thinkpad\AppData\Local\Android\Sdk\tools\bin;C:\Users\Manu-Thinkpad\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Manu-Thinkpad\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Manu-Thinkpad\AppData\Local\Programs\Python\Python38-32\;C:\Users\Manu-Thinkpad\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\Users\Manu-Thinkpad\AppData\Roaming\npm;C:\Users\Manu-Thinkpad\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="classworlds.conf" value="C:\Users\Manu-Thinkpad\apache-maven-3.6.3-bin\bin\..\bin\m2.conf"/>
+    <property name="td_emailId" value="sn21@abc.com"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="library.jansi.path" value="C:\Users\Manu-Thinkpad\apache-maven-3.6.3-bin\bin\..\lib\jansi-native"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="To_check_Error_For_Invalid_Login" classname="com.tekarch.SFDC_Login.loginToSF" time="7.157">
+    <failure message="no such alert&#10;  (Session info: chrome=88.0.4324.150)&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;LAPTOP-38PPD9KJ&apos;, ip: &apos;192.168.162.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\MANU-T~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 01421e62dc7963150764f7935fe9bec3" type="org.openqa.selenium.NoAlertPresentException">org.openqa.selenium.NoAlertPresentException: 
+no such alert
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LAPTOP-38PPD9KJ', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\MANU-T~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01421e62dc7963150764f7935fe9bec3
+	at com.tekarch.SFDC_Login.loginToSF.To_check_Error_For_Invalid_Login(loginToSF.java:35)
+</failure>
+    <system-out><![CDATA[windows 10
+Directory already exists: C:\Projects\Smitha_Java\POM_SalesForce\TestReport
+ExtentReport Path for WINDOWS: C:\Projects\Smitha_Java\POM_SalesForce\TestReport
+
+INFO CommonUtilities : 29 - Current dir using System:C:\Projects\Smitha_Java\POM_SalesForce/src/main/java/properties/testdata.properties
+INFO loginToSF : 39 - web
+INFO loginToSF : 40 - sf
+INFO BrowserUtilities : 52 - Launching Browser
+Test Suite started!
+To_check_Error_For_Invalid_Login started!
+INFO BrowserUtilities : 92 - Element Displayed : [[ChromeDriver: chrome on WINDOWS (01421e62dc7963150764f7935fe9bec3)] -> id: username]
+INFO poLoginSF : 79 - ****************************
+To_check_Error_For_Invalid_Login failed!
+C:\Projects\Smitha_Java\POM_SalesForce/screenshots/loginToSF_To_check_Error_For_Invalid_Login.jpg
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (CommonUtilities).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 21396
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 20, 2021 11:42:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="to_Check_Whether_Login_Happening_Or_Not" classname="com.tekarch.SFDC_Login.loginToSF" time="5.573"/>
+</testsuite>

@@ -1,0 +1,18 @@
+2021-02-20 23:36:14 INFO  CommonUtilities 29 - Current dir using System:C:\Projects\Smitha_Java\POM_SalesForce/src/main/java/properties/testdata.properties
+2021-02-20 23:36:14 INFO  loginToSF 39 - web
+2021-02-20 23:36:14 INFO  loginToSF 40 - sf
+2021-02-20 23:36:14 INFO  BrowserUtilities 52 - Launching Browser
+2021-02-20 23:36:21 INFO  BrowserUtilities 92 - Element Displayed : [[ChromeDriver: chrome on WINDOWS (37a3133daf8b0a21ef5e33f4675e0b8e)] -> id: username]
+2021-02-20 23:36:21 INFO  poLoginSF 79 - ****************************
+2021-02-20 23:36:28 INFO  BrowserUtilities 92 - Element Displayed : [[ChromeDriver: chrome on WINDOWS (37a3133daf8b0a21ef5e33f4675e0b8e)] -> id: username]
+2021-02-20 23:36:33 INFO  BrowserUtilities 92 - Element Displayed : [[ChromeDriver: chrome on WINDOWS (37a3133daf8b0a21ef5e33f4675e0b8e)] -> xpath: //a[normalize-space()='Home']]
+2021-02-20 23:36:34 INFO  BrowserUtilities 129 - Displayed [[ChromeDriver: chrome on WINDOWS (37a3133daf8b0a21ef5e33f4675e0b8e)] -> xpath: //a[normalize-space()='Home']]
+2021-02-20 23:42:13 INFO  CommonUtilities 29 - Current dir using System:C:\Projects\Smitha_Java\POM_SalesForce/src/main/java/properties/testdata.properties
+2021-02-20 23:42:13 INFO  loginToSF 39 - web
+2021-02-20 23:42:13 INFO  loginToSF 40 - sf
+2021-02-20 23:42:13 INFO  BrowserUtilities 52 - Launching Browser
+2021-02-20 23:42:17 INFO  BrowserUtilities 92 - Element Displayed : [[ChromeDriver: chrome on WINDOWS (01421e62dc7963150764f7935fe9bec3)] -> id: username]
+2021-02-20 23:42:18 INFO  poLoginSF 79 - ****************************
+2021-02-20 23:42:24 INFO  BrowserUtilities 92 - Element Displayed : [[ChromeDriver: chrome on WINDOWS (01421e62dc7963150764f7935fe9bec3)] -> id: username]
+2021-02-20 23:42:29 INFO  BrowserUtilities 92 - Element Displayed : [[ChromeDriver: chrome on WINDOWS (01421e62dc7963150764f7935fe9bec3)] -> xpath: //a[normalize-space()='Home']]
+2021-02-20 23:42:30 INFO  BrowserUtilities 129 - Displayed [[ChromeDriver: chrome on WINDOWS (01421e62dc7963150764f7935fe9bec3)] -> xpath: //a[normalize-space()='Home']]
